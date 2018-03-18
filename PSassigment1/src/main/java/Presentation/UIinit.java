@@ -9,10 +9,9 @@ public class UIinit
 {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Electric Castle");
-        frame.setContentPane(new UserInterface().getLoginPanel());
+        frame.setContentPane(new Interface().getLoginPanel());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-
     }
 }

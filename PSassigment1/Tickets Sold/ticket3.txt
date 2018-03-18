@@ -1,0 +1,5 @@
+Ticket with local number 3
+Type Day1
+Price 200 RON
+Date 2018-03-18
+Time 18:15:09

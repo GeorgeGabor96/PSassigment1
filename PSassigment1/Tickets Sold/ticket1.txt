@@ -1,0 +1,5 @@
+Ticket with local number 1
+Type AllDays
+Price 400 RON
+Date 2018-03-18
+Time 22:59:13
