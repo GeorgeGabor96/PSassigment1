@@ -1,6 +1,7 @@
 package Logic.Model;
 
 import DataAccess.TableAccess.TicketAccess;
+import Logic.Interfaces.TicketCredentials;
 
 import java.io.*;
 import java.text.DateFormat;

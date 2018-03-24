@@ -1,6 +1,10 @@
 package Logic.Model;
 
+import DataAccess.TableAccess.TicketAccess;
 import DataAccess.TableAccess.UserAccess;
+import Logic.Interfaces.CashDayCredentials;
+import Logic.Interfaces.CashierCredentials;
+import Logic.Interfaces.UserCredentials;
 
 import java.util.List;
 
@@ -44,13 +48,18 @@ public class Admin extends User {
         return UserAccess.deleteCashier(username);
     }
 
-    public void changeMaxCapacity(int newMaxCapacity)
+    public boolean changeMaxCapacity(int newMaxCapacity)
     {
-        int currentCapacity = UserAccess.getCurrentCapacity();
-        System.out.println(currentCapacity);
-        if (currentCapacity < newMaxCapacity)
+        int ticketsCount = TicketAccess.getNumberOfTickets();
+        System.out.println(ticketsCount);
+        if (ticketsCount < newMaxCapacity)
         {
             UserAccess.changeMaxCapacity(newMaxCapacity);
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 

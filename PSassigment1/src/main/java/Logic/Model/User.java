@@ -1,10 +1,7 @@
 package Logic.Model;
 
-import DataAccess.TableAccess.TicketAccess;
 import DataAccess.TableAccess.UserAccess;
-
-import java.util.ArrayList;
-import java.util.List;
+import Logic.Interfaces.UserCredentials;
 
 /**
  * Created by GEORGE on 18.03.2018.

@@ -1,5 +1,5 @@
 Ticket with local number 2
-Type Day3
+Type Day2
 Price 200 RON
-Date 2018-03-18
-Time 18:53:00
+Date 2018-03-24
+Time 16:26:05

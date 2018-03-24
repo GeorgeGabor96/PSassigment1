@@ -1,5 +1,7 @@
 package Logic.Model;
 
+import Logic.Interfaces.CashDayCredentials;
+
 /**
  * Created by GEORGE on 18.03.2018.
  */

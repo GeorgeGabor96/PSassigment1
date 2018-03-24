@@ -1,5 +1,5 @@
-Ticket with local number 4
+Ticket with local number 6
 Type AllDays
 Price 400 RON
 Date 2018-03-24
-Time 15:40:28
+Time 15:52:59

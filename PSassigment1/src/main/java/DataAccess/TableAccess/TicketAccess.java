@@ -2,7 +2,7 @@ package DataAccess.TableAccess;
 
 import DataAccess.Connection.ConnectionFactory;
 import Logic.Model.Ticket;
-import Logic.Model.TicketCredentials;
+import Logic.Interfaces.TicketCredentials;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -20,6 +20,36 @@ public class TicketAccess {
     private static final String getCapacityPerDayQuery = "select capacity from constants;";
     private static final String insertTicketQuery = "insert into ticketdetails(time, User_id, Ticket_id) values(?, ?, (Select id from ticket where type = ?));"; // time, id cashier, tipul biletului
     private static final String ticketsSoldByCashierQuery = "SELECT time, price, type FROM electriccastle.ticketdetails inner join electriccastle.ticket on ticket_id = id where user_id = ? order by time desc;"; // id cashier
+    private static final String numberOfTicketsQuery = "SELECT Count(*) as count FROM electriccastle.ticketdetails;";
+
+    public static int getNumberOfTickets()
+    {
+        Connection connection = ConnectionFactory.getConnection();
+        PreparedStatement statement = null;
+        ResultSet resultSet = null;
+
+        int ticketsCount = 0;
+
+        try {
+            statement = connection.prepareStatement(numberOfTicketsQuery);
+            resultSet = statement.executeQuery();
+
+            if (resultSet.next())
+            {
+                ticketsCount = resultSet.getInt("count");
+            }
+        } catch (SQLException e){
+            LOGGER.log(Level.WARNING,"TicketAccess:getCapacityPerDay " + e.getMessage());
+        }
+        finally {
+            ConnectionFactory.close(resultSet);
+            ConnectionFactory.close(statement);
+            ConnectionFactory.close(connection);
+        }
+
+        return ticketsCount;
+    }
+
 
     public static List<TicketCredentials> getTicketsSoldByCashier(int id)
     {

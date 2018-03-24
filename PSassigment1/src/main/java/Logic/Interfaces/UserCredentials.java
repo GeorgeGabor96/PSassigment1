@@ -1,4 +1,4 @@
-package Logic.Model;
+package Logic.Interfaces;
 
 /**
  * Created by GEORGE on 18.03.2018.

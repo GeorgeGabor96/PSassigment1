@@ -1,5 +1,5 @@
 Ticket with local number 1
-Type AllDays
-Price 400 RON
-Date 2018-03-18
-Time 22:59:13
+Type Day1
+Price 200 RON
+Date 2018-03-24
+Time 16:26:02

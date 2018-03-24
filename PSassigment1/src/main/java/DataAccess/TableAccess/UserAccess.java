@@ -1,6 +1,9 @@
 package DataAccess.TableAccess;
 
 import DataAccess.Connection.ConnectionFactory;
+import Logic.Interfaces.CashDayCredentials;
+import Logic.Interfaces.CashierCredentials;
+import Logic.Interfaces.UserCredentials;
 import Logic.Model.*;
 
 import java.sql.Connection;

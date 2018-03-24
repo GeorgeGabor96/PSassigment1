@@ -1,7 +1,8 @@
 package Logic.Model;
 
 import DataAccess.TableAccess.TicketAccess;
-import DataAccess.TableAccess.UserAccess;
+import Logic.Interfaces.CashierCredentials;
+import Logic.Interfaces.TicketCredentials;
 
 import java.util.List;
 

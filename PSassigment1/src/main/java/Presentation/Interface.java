@@ -1,5 +1,8 @@
 package Presentation;
 
+import Logic.Interfaces.CashDayCredentials;
+import Logic.Interfaces.CashierCredentials;
+import Logic.Interfaces.TicketCredentials;
 import Logic.Model.*;
 
 import javax.swing.*;
@@ -60,7 +63,7 @@ public class Interface {
     private DefaultTableModel tableModel;
     private DefaultTableModel ticketsSoldCashierTableModel;
     private DefaultTableModel cashPerDayTableModel;
-    private DefaultTableModel cashPerTycketTableModel;
+    private DefaultTableModel cashPerTicketTableModel;
 
     private static final String LOGIN_CARD = "Login";
 
@@ -69,6 +72,7 @@ public class Interface {
     public Interface() {
         LoginButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                ErrorLabel.setText("");
                 CardLayout cardLayout = (CardLayout) Root.getLayout();
                 String username = usernameTextField.getText();
                 if (true == username.equals(""))
@@ -110,6 +114,10 @@ public class Interface {
                 cashierNewPassTextField.setText("");
                 cashierNewUserTextField.setText("");
                 maxCapacityTextField.setText("");
+                totalCashLabel.setText("");
+                clearModelTableRows(cashPerTicketTableModel);
+                clearModelTableRows(cashPerDayTableModel);
+                clearModelTableRows(ticketsSoldCashierTableModel);
 
                 cardLayout.show(Root, LOGIN_CARD);
                 currentUser = null;
@@ -122,12 +130,12 @@ public class Interface {
                 CardLayout cardLayout = (CardLayout) Root.getLayout();
                 cardLayout.show(Root, LOGIN_CARD);
                 currentUser = null;
+                clearModelTableRows(tableModel);
             }
         });
 
         sellTicketOption.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                int index = ticketSelectCombo.getSelectedIndex();
                 Ticket ticket;
                 String type = null;
                 String[] data = ticketSelectCombo.getSelectedItem().toString().split(" - ");
@@ -274,6 +282,7 @@ public class Interface {
                 if (newValue.equals(""))
                 {
                     JOptionPane.showMessageDialog(null, "Enter new value for capacity");
+                    return;
                 }
                 int newMaxCapacity = 0;
                 try
@@ -284,6 +293,7 @@ public class Interface {
                 {
                     b.printStackTrace();
                     JOptionPane.showMessageDialog(null, "Only add integers");
+                    return;
                 }
                 if (newMaxCapacity < 0)
                 {
@@ -291,8 +301,15 @@ public class Interface {
                 }
 
                 Admin admin = new Admin();
-                admin.changeMaxCapacity(newMaxCapacity);
-                JOptionPane.showMessageDialog(null, "Update successfully");
+                boolean ok = admin.changeMaxCapacity(newMaxCapacity);
+                if (true == ok)
+                {
+                    JOptionPane.showMessageDialog(null, "Update successfully");
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "There are already more tickets than the new capacity. Update FAILED");
+                }
             }
         });
 
@@ -322,10 +339,10 @@ public class Interface {
             public void actionPerformed(ActionEvent e) {
                 Admin admin = new Admin();
                 List<CashDayCredentials> cashPerType = admin.getCashPerTicket();
-                clearModelTableRows(cashPerTycketTableModel);
+                clearModelTableRows(cashPerTicketTableModel);
                 for (CashDayCredentials cashTicket: cashPerType)
                 {
-                    cashPerTycketTableModel.addRow(new Object[]{cashTicket.getType(), cashTicket.getCount(), cashTicket.getCash()});
+                    cashPerTicketTableModel.addRow(new Object[]{cashTicket.getType(), cashTicket.getCount(), cashTicket.getCash()});
                 }
                 totalCashLabel.setText("Total " + admin.getTotal(cashPerType));
             }
@@ -358,8 +375,8 @@ public class Interface {
         cashPerDayScroll.setBorder(BorderFactory.createEmptyBorder());
 
         columns = new String[]{"Type", "Tickets Sold", "Cash"};
-        cashPerTycketTableModel = new DefaultTableModel(columns, 0);
-        cashPerTypeTable.setModel(cashPerTycketTableModel);
+        cashPerTicketTableModel = new DefaultTableModel(columns, 0);
+        cashPerTypeTable.setModel(cashPerTicketTableModel);
         cashPerTypeScroll.setBorder(BorderFactory.createEmptyBorder());
     }
 
