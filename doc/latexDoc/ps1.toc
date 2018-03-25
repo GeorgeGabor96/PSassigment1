@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Analiza cerin\IeC {{\textcommabelow t}}elor}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Specificare cerinte}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Cerinte functionale}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Cerinte non-functionale}{4}{subsection.1.3}
+\contentsline {section}{\numberline {2}Use Case Model}{4}{section.2}
+\contentsline {section}{\numberline {3}Design-ul arhitectural al sistemului}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Descrierea modelului arhitectural}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Diagrame}{5}{subsection.3.2}
+\contentsline {section}{\numberline {4}Diagrame de secventa UML}{6}{section.4}
+\contentsline {section}{\numberline {5}Design-ul claselor}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}Descriere design pattern-uri utilizate}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Diagrama de clase}{8}{subsection.5.2}
+\contentsline {section}{\numberline {6}Model de date}{9}{section.6}
+\contentsline {section}{\numberline {7}Testarea sistemului}{9}{section.7}
+\contentsline {section}{\numberline {8}Bibliografie}{9}{section.8}

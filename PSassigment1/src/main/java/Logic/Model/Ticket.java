@@ -86,13 +86,13 @@ public class Ticket implements TicketCredentials {
 
             ticketsInserted++;
             TicketAccess.insertTicket(this);
-            writeTicketFieOnDisk();
+            writeTicketFileOnDisk();
         }
 
         return isOk;
     }
 
-    private void writeTicketFieOnDisk()
+    private void writeTicketFileOnDisk()
     {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Ticket with local number " + ticketsInserted + "\r\n");

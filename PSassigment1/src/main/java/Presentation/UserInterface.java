@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * Created by GEORGE on 17.03.2018.
  */
-public class Interface {
+public class UserInterface {
     private JPanel Root;
     private JPanel LoginPanel;
     private JPanel AdminPanel;
@@ -69,7 +69,7 @@ public class Interface {
 
     private User currentUser;
 
-    public Interface() {
+    public UserInterface() {
         LoginButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 ErrorLabel.setText("");
@@ -295,9 +295,10 @@ public class Interface {
                     JOptionPane.showMessageDialog(null, "Only add integers");
                     return;
                 }
-                if (newMaxCapacity < 0)
+                if (newMaxCapacity < 0 || newMaxCapacity == 0)
                 {
-                    newMaxCapacity = -newMaxCapacity;
+                    JOptionPane.showMessageDialog(null, "Value must be > 0");
+                    return;
                 }
 
                 Admin admin = new Admin();
