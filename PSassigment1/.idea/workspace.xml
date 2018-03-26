@@ -16,21 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UIinit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Presentation/UIinit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Presentation/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="299" column="57" lean-forward="false" selection-start-line="299" selection-start-column="57" selection-end-line="299" selection-end-column="57" />
+            <state relative-caret-position="2793">
+              <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getLoginPanel#0;class#UserInterface#0" expanded="false" />
@@ -41,12 +31,84 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CashDayCredentials.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Interfaces/CashDayCredentials.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInterface.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Presentation/UserInterface.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Cashier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/Cashier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="399">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ticket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/Ticket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="33" />
+              <folding>
+                <element signature="method#Ticket#0;class#Ticket#0" expanded="false" />
+                <element signature="method#Ticket#1;class#Ticket#0" expanded="false" />
+                <element signature="e#3448#3449#0" expanded="true" />
+                <element signature="e#3475#3476#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAccess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/TableAccess/UserAccess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="47" column="58" lean-forward="false" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#insertCashier#0;class#UserAccess#0" expanded="false" />
+                <element signature="method#getCashierPassword#0;class#UserAccess#0" expanded="false" />
+                <element signature="method#updateCashierUsername#0;class#UserAccess#0" expanded="false" />
+                <element signature="method#updateCashierPassword#0;class#UserAccess#0" expanded="false" />
+                <element signature="method#deleteCashier#0;class#UserAccess#0" expanded="false" />
+                <element signature="method#getCurrentCapacity#0;class#UserAccess#0" expanded="false" />
+                <element signature="method#changeMaxCapacity#0;class#UserAccess#0" expanded="false" />
+                <element signature="method#getNumberTicketsPerCashier#0;class#UserAccess#0" expanded="false" />
+                <element signature="method#getCashingPerDay#0;class#UserAccess#0" expanded="false" />
+                <element signature="method#getCashPerTicket#0;class#UserAccess#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketAccess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/TableAccess/TicketAccess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getNumberOfTickets#0;class#TicketAccess#0" expanded="false" />
+                <element signature="method#getTicketsTypeSold#0;class#TicketAccess#0" expanded="false" />
+                <element signature="method#getCapacityPerDay#0;class#TicketAccess#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,61 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ticket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/Ticket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="121" column="27" lean-forward="true" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-              <folding>
-                <element signature="method#Ticket#0;class#Ticket#0" expanded="false" />
-                <element signature="method#Ticket#1;class#Ticket#0" expanded="false" />
-                <element signature="method#insertTicket#0;class#Ticket#0" expanded="false" />
-                <element signature="method#writeTicketFileOnDisk#0;class#Ticket#0" expanded="false" />
-                <element signature="e#3448#3449#0" expanded="true" />
-                <element signature="e#3475#3476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAccess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/TableAccess/UserAccess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#verifyUser#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#insertCashier#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#getCashierPassword#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#updateCashierUsername#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#updateCashierPassword#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#deleteCashier#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#getCurrentCapacity#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#changeMaxCapacity#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#getNumberTicketsPerCashier#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#getCashingPerDay#0;class#UserAccess#0" expanded="false" />
-                <element signature="method#getCashPerTicket#0;class#UserAccess#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CashDay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/CashDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Admin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/Admin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="630">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Admin#0;class#Admin#0" expanded="false" />
@@ -132,15 +144,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionFactory.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConnectionFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/Connection/ConnectionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="357">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="method#createConnection#0;class#ConnectionFactory#0" expanded="false" />
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
                 <element signature="method#close#0;class#ConnectionFactory#0" expanded="false" />
                 <element signature="method#close#1;class#ConnectionFactory#0" expanded="false" />
                 <element signature="method#close#2;class#ConnectionFactory#0" expanded="false" />
@@ -162,6 +171,7 @@
     <findStrings>
       <find>cashPerTycketTableModel</find>
       <find>ticketsSoldByTable</find>
+      <find>sell</find>
     </findStrings>
     <replaceStrings>
       <replace>cashPerTicketTableModel</replace>
@@ -177,7 +187,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/DataAccess/Connection/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Presentation/UserInterface.form" />
         <option value="$PROJECT_DIR$/src/main/java/Presentation/LoginInterface.form" />
         <option value="$PROJECT_DIR$/src/main/java/Presentation/LoginInterface.java" />
@@ -205,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Presentation/Interface.form" />
         <option value="$PROJECT_DIR$/src/main/java/Logic/Model/Ticket.java" />
         <option value="$PROJECT_DIR$/src/main/java/Presentation/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataAccess/Connection/ConnectionFactory.java" />
       </list>
     </option>
   </component>
@@ -215,7 +225,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -235,7 +245,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -303,6 +315,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Logic" type="462c0819:PsiDirectoryNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSassigment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSassigment1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Logic" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,21 +334,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Presentation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PSassigment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PSassigment1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="UserInterface" type="e9f4de52:FormNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -688,23 +698,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32718894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32687926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19226637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -718,6 +727,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="simpleUML" active="true" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5644391" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -849,7 +859,6 @@
           <caret line="316" column="65" lean-forward="false" selection-start-line="316" selection-start-column="65" selection-end-line="316" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#verifyUser#0;class#UserAccess#0" expanded="false" />
             <element signature="method#insertCashier#0;class#UserAccess#0" expanded="false" />
             <element signature="method#getCashierPassword#0;class#UserAccess#0" expanded="false" />
             <element signature="method#updateCashierUsername#0;class#UserAccess#0" expanded="false" />
@@ -885,8 +894,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getNumberOfTickets#0;class#TicketAccess#0" expanded="false" />
-            <element signature="method#getTicketsSoldByCashier#0;class#TicketAccess#0" expanded="false" />
-            <element signature="method#insertTicket#0;class#TicketAccess#0" expanded="false" />
             <element signature="method#getTicketsTypeSold#0;class#TicketAccess#0" expanded="false" />
             <element signature="method#getCapacityPerDay#0;class#TicketAccess#0" expanded="false" />
           </folding>
@@ -921,7 +928,6 @@
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#verifyUser#0;class#UserAccess#0" expanded="false" />
             <element signature="method#insertCashier#0;class#UserAccess#0" expanded="false" />
             <element signature="method#getCashierPassword#0;class#UserAccess#0" expanded="false" />
             <element signature="method#updateCashierUsername#0;class#UserAccess#0" expanded="false" />
@@ -1006,11 +1012,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/TicketType.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/asdf.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Presentation/UserInterface.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Interfaces/UserCredentials.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1022,49 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Interfaces/CashDayCredentials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/TableAccess/UserAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#verifyUser#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#insertCashier#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#getCashierPassword#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#updateCashierUsername#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#updateCashierPassword#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#deleteCashier#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#getCurrentCapacity#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#changeMaxCapacity#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#getNumberTicketsPerCashier#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#getCashingPerDay#0;class#UserAccess#0" expanded="false" />
-            <element signature="method#getCashPerTicket#0;class#UserAccess#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/TableAccess/TicketAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getNumberOfTickets#0;class#TicketAccess#0" expanded="false" />
-            <element signature="method#getTicketsSoldByCashier#0;class#TicketAccess#0" expanded="false" />
-            <element signature="method#insertTicket#0;class#TicketAccess#0" expanded="false" />
-            <element signature="method#getTicketsTypeSold#0;class#TicketAccess#0" expanded="false" />
-            <element signature="method#getCapacityPerDay#0;class#TicketAccess#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,6 +1041,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/CashDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Presentation/UserInterface.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Interfaces/CashDayCredentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1095,41 +1074,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/TableAccess/UserAccess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="121" column="27" lean-forward="true" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
+        <state relative-caret-position="714">
+          <caret line="47" column="58" lean-forward="false" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
           <folding>
-            <element signature="method#Ticket#0;class#Ticket#0" expanded="false" />
-            <element signature="method#Ticket#1;class#Ticket#0" expanded="false" />
-            <element signature="method#insertTicket#0;class#Ticket#0" expanded="false" />
-            <element signature="method#writeTicketFileOnDisk#0;class#Ticket#0" expanded="false" />
-            <element signature="e#3448#3449#0" expanded="true" />
-            <element signature="e#3475#3476#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#insertCashier#0;class#UserAccess#0" expanded="false" />
+            <element signature="method#getCashierPassword#0;class#UserAccess#0" expanded="false" />
+            <element signature="method#updateCashierUsername#0;class#UserAccess#0" expanded="false" />
+            <element signature="method#updateCashierPassword#0;class#UserAccess#0" expanded="false" />
+            <element signature="method#deleteCashier#0;class#UserAccess#0" expanded="false" />
+            <element signature="method#getCurrentCapacity#0;class#UserAccess#0" expanded="false" />
+            <element signature="method#changeMaxCapacity#0;class#UserAccess#0" expanded="false" />
+            <element signature="method#getNumberTicketsPerCashier#0;class#UserAccess#0" expanded="false" />
+            <element signature="method#getCashingPerDay#0;class#UserAccess#0" expanded="false" />
+            <element signature="method#getCashPerTicket#0;class#UserAccess#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/Cashier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/CashDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="630">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Admin#0;class#Admin#0" expanded="false" />
@@ -1141,30 +1109,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/Connection/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="46" />
-          <folding>
-            <element signature="method#createConnection#0;class#ConnectionFactory#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="method#close#0;class#ConnectionFactory#0" expanded="false" />
-            <element signature="method#close#1;class#ConnectionFactory#0" expanded="false" />
-            <element signature="method#close#2;class#ConnectionFactory#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Presentation/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="299" column="57" lean-forward="false" selection-start-line="299" selection-start-column="57" selection-end-line="299" selection-end-column="57" />
+        <state relative-caret-position="2793">
+          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getLoginPanel#0;class#UserInterface#0" expanded="false" />
             <element signature="method#setup#0;class#UserInterface#0" expanded="false" />
             <element signature="method#clearModelTableRows#0;class#UserInterface#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="33" />
+          <folding>
+            <element signature="method#Ticket#0;class#Ticket#0" expanded="false" />
+            <element signature="method#Ticket#1;class#Ticket#0" expanded="false" />
+            <element signature="e#3448#3449#0" expanded="true" />
+            <element signature="e#3475#3476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Model/Cashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/TableAccess/TicketAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getNumberOfTickets#0;class#TicketAccess#0" expanded="false" />
+            <element signature="method#getTicketsTypeSold#0;class#TicketAccess#0" expanded="false" />
+            <element signature="method#getCapacityPerDay#0;class#TicketAccess#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataAccess/Connection/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="method#close#0;class#ConnectionFactory#0" expanded="false" />
+            <element signature="method#close#1;class#ConnectionFactory#0" expanded="false" />
+            <element signature="method#close#2;class#ConnectionFactory#0" expanded="false" />
           </folding>
         </state>
       </provider>

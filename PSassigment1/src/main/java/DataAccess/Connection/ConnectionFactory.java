@@ -12,7 +12,7 @@ public class ConnectionFactory
     private static final Logger LOGGER = Logger.getLogger(ConnectionFactory.class.getName());
     private static final String DBURL = "jdbc:mysql://localhost:3306/electriccastle";
     private static final String USER = "root";
-    private static final String PASS = "33Wctqmst!";
+    private static final String PASS = "george";
 
     private static ConnectionFactory singleInstance = new ConnectionFactory();
 
